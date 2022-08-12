@@ -1,10 +1,10 @@
 # pos_mobile_app
 
-A new Flutter project.
+The POS Mobile app for spartan media.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is using the Stacked Architecture.
 
 A few resources to get you started if this is your first Flutter project:
 
