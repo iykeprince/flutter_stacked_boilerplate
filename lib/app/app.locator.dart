@@ -11,6 +11,7 @@ import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import '../client/dio_client.dart';
+import '../services/authentication.service.dart';
 
 final locator = StackedLocator.instance;
 
@@ -24,4 +25,5 @@ void setupLocator({String? environment, EnvironmentFilter? environmentFilter}) {
   locator.registerLazySingleton(() => DialogService());
   locator.registerLazySingleton(() => SnackbarService());
   locator.registerLazySingleton(() => DioClient());
+  locator.registerLazySingleton(() => AuthenticationService());
 }

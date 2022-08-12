@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class DioClient {
   final Dio _dio = Dio(
     BaseOptions(
-      baseUrl: 'https://temak-pos-web-app.herokuapp.com',
+      baseUrl: 'https://pos-web-app.herokuapp.com',
       connectTimeout: 15000,
       // receiveTimeout: 3000,
     ),
